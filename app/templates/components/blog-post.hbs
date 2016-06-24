@@ -6,6 +6,9 @@
     Posted on {{post.createdDate}}
     by {{post.author}}
   </i>
-  <br><br><br>
+  <br>
+  <br>
+  {{moment-from-now post.createdDate interval=1000}}
+  <br>
   <hr>
 </article>
