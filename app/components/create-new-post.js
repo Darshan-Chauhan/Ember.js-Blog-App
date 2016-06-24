@@ -5,9 +5,9 @@ export default Ember.Component.extend({
     createPost(newPost) {
       this.sendAction('createPost', newPost);
 
-      this.set('title', null);
-      this.set('author', null);
-      this.set('text', null);
+      newPost.set('title', null);
+      newPost.set('author', null);
+      newPost.set('text', null);
     }
   }
 });
