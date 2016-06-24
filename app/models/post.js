@@ -13,17 +13,17 @@ Post.reopenClass({
     FIXTURES: [
         {
             id: 1,
-            title: 'First Blog Post',
+            title: 'Learning Ember.js',
             author: 'Darshan Chauhan',
             createdDate: Date.now(),
-            text: 'Hi'
+            text: 'Ember.js is an open source JavaScript client-side framework for developing the web applications and uses the MVC(Model-View-Controller) architecture pattern. In Ember.js, route is used as model, handlebar template as view and controller manipulates the data in the model.'
         },
         {
             id: 2,
-            title: 'Second Blog Post',
+            title: 'History of Ember.js',
             author: 'Darshan Chauhan',
             createdDate: Date.now(),
-            text: 'Hello'
+            text: 'Original name of the Ember.js was SproutCore MVC framework. It was developed by Yehuda Katz and initially released on in December 2011.'
         }
     ]
 });
