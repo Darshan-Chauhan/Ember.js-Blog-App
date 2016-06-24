@@ -8,7 +8,8 @@
   </i>
   <br>
   <br>
-  {{moment-from-now post.createdDate interval=1000}}
+  {{moment-from-now post.createdDate}}
   <br>
+  <button {{action "deletePost" post}}>Delete</button>
   <hr>
 </article>

@@ -38,8 +38,10 @@
     "ember-data-fixture-adapter": "1.13.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
+    "ember-model-validator": "^2.1.0",
     "ember-moment": "7.0.0-beta.3",
     "ember-resolver": "^2.0.3",
+    "ember-validations": "^2.0.0-alpha.4",
     "loader.js": "^4.0.1"
   }
 }
