@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  model() {
-    return {};
+  model: function(){
+    return this.store.findAll('post');
   },
 
   actions: {
